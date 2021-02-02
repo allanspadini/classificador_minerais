@@ -21,34 +21,39 @@ size = (224, 224)
 
 model = tensorflow.keras.models.load_model('keras_model.h5')
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sketchy/bootstrap.min.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 app.title = 'Classificador de minerais'
 
-app.layout = html.Div([
+app.layout = html.Div(style={'background-color': 'white'},children=[
     dcc.Upload(
         id='upload-image',
         children=html.Div([
-            'Arreste e solte ou ',
-            html.A('clique aqui para selecionar uma imagem da sua máquina')
+            'Arraste e solte ou ',
+            html.A(style={'color':'blue','text-decoration': 'underline'},children='clique aqui'),
+            ' para selecionar uma imagem da sua máquina'
         ]),
         style={
-            'width': '100%',
-            'height': '60px',
+            'align-items': 'center',
+            'width': '50%',
+            'height': '120px',
             'lineHeight': '60px',
             'borderWidth': '1px',
             'borderStyle': 'dashed',
             'borderRadius': '5px',
             'textAlign': 'center',
-            'margin': '10px'
+            'margin': '10px',
+            'transform': 'translate(50%,0%)',
+            'font-size': '30px'
         },
         # Allow multiple files to be uploaded
         multiple=True
     ),
     html.Div(id='output-image-upload'),
+    
 ])
 
 
