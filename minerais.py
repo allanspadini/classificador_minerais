@@ -21,14 +21,14 @@ size = (224, 224)
 
 model = tensorflow.keras.models.load_model('keras_model.h5')
 
-external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sketchy/bootstrap.min.css']
+#external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sketchy/bootstrap.min.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__) #, external_stylesheets=external_stylesheets
 server = app.server
 
 app.title = 'Classificador de minerais'
 
-app.layout = html.Div(style={'background-color': 'white'},children=[
+app.layout = html.Div(children=[
     dcc.Upload(
         id='upload-image',
         children=html.Div([
@@ -36,19 +36,7 @@ app.layout = html.Div(style={'background-color': 'white'},children=[
             html.A(style={'color':'blue','text-decoration': 'underline'},children='clique aqui'),
             ' para selecionar uma imagem da sua máquina'
         ]),
-        style={
-            'align-items': 'center',
-            'width': '50%',
-            'height': '120px',
-            'lineHeight': '60px',
-            'borderWidth': '1px',
-            'borderStyle': 'dashed',
-            'borderRadius': '5px',
-            'textAlign': 'center',
-            'margin': '10px',
-            'transform': 'translate(50%,0%)',
-            'font-size': '30px'
-        },
+        className="bloco",
         # Allow multiple files to be uploaded
         multiple=True
     ),
@@ -94,11 +82,9 @@ def parse_contents(contents, filename, date):
         html.Img(src=contents,style={'width':'500px','height':'500px'}),
         html.Hr(),
         #html.Div(data.head(10)),
-        html.H5('Resultado da classificação:'),
-        dash_table.DataTable(id='table', columns=[{'name':i,'id':i} for i in dados_final.columns],
+        html.H4('Resultado da classificação:'),
+        dash_table.DataTable(id='table',style_cell={'font-size': '22px','font-family': 'sans-serif'}, columns=[{'name':i,'id':i} for i in dados_final.columns],
         data=dados_final.to_dict('records'))
-
-
         
     ])
 
