@@ -19,7 +19,7 @@ import tensorflow.keras
 data = np.ndarray(shape=(1,224,224,3), dtype=np.float32)
 size = (224, 224)
 
-model = tensorflow.keras.models.load_model('keras_model.h5')
+model = tensorflow.keras.models.load_model('assets/keras_model.h5')
 
 #external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sketchy/bootstrap.min.css']
 
@@ -62,7 +62,7 @@ def parse_contents(contents, filename, date):
 
     data[0] = normalized_image_array
 
-    dados = pd.read_csv('labels.txt', sep=" ", header=None)
+    dados = pd.read_csv('assets/labels.txt', sep=" ", header=None)
     dados.columns = ["Minerais"]
     dados['Probabilidade (%)'] = np.zeros(dados.shape[0])
 
