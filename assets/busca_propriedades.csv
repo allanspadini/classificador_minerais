@@ -1,0 +1,29 @@
+Nome,Classificação,Fórmula Química,Dureza,Brilho,Cor,Composição,Cristalografia,Classe,Hábito,Clivagem,Fratura,Densidade relativa,Propriedades Ópticas,Propriedades Diagnósticas,Associação,Ocorrência,Usos,Traço
+Quartzo,Mineral,SiO2,7,Vítreo,Variável,SiO2,Trigonal,Óxido,Maciço,Imperfeita,Conchoidal,2.6 - 2.7,Transparente,Transparência,Pegmatita,Ubíquo,"Vidro, indústria eletrônica",Branco
+Feldspato,Mineral,Variávels,6-6.5,Vítreo,Variável,AlSi3O8,Monoclínico,Silicato,Prismático,Perfeita,Subconchoidal,2.5 - 2.8,Translúcido,Clivagem planar,Granito,Ubíquo,"Cerâmica, vidro",Branco
+Calcita,Mineral,CaCO3,3,Vítreo,Incolor,CaCO3,Trigonal,Carbonato,Romboédrico,Perfeita,Concoidal,2.7,Transparente,Efervescência com ácido,Mármore,Ubíquo,"Construção, indústria de cimento",Branco
+Gipsita,Mineral,CaSO4·2H2O,2,Vítreo,Incolor,CaSO4·2H2O,Monoclínico,Sulfato,Prismático,Perfeita,Fibrosa,2.3,Translúcido,Solubilidade em água,Depósitos sedimentares,Ubíquo,"Construção, fabricação de gesso",Branco
+Talco,Mineral,Mg3Si4O10(OH)2,1,Ceroso,Branco,Mg3Si4O10(OH)2,Monoclínico,Silicato,Folhado,Perfeita,Folhado,2.7 - 2.8,Translúcido,Toque oleoso,Rochas metamórficas,Ubíquo,"Cosméticos, indústria de papel",Branco
+Mica,Mineral,Variávels,2.5-3,Vítreo,Variável,KAl2(AlSi3O10)(OH)2,Monoclínico,Silicato,Placa,Perfeita,Elástica,2.7 - 3.2,Translúcido,Clivagem planar,"Rochas ígneas, metamórficas",Ubíquo,"Isolante elétrico, indústria de cosméticos",Branco
+Pirita,Mineral,FeS2,6-6.5,Metálico,Amarelo-latão,FeS2,Cúbico,Sulfeto,Cúbico,Indistinta,Concoidal,4.8 - 5,Opaco,Brilho metálico,Veios em rochas sedimentares,Ubíquo,"Produção de ácido sulfúrico, joalheria",Preto-esverdeado
+Magnetita,Mineral,Fe3O4,5.5-6.5,Metálico,Preto,Fe3O4,Cúbico,Óxido,Octaédrico,Indistinta,Concoidal,5.1 - 5.2,Opaco,Atração magnética,"Rochas ígneas, metamórficas",Ubíquo,"Produção de aço, pigmentos",Preto
+Hematita,Mineral,Fe2O3,5-6.5,Metálico,Vermelho a cinza-negro,Fe2O3,Trigonal,Óxido,Botrioidal,Indistinta,Concoidal,5.3 - 5.4,Opaco,Cor avermelhada,"Rochas sedimentares, metamórficas",Ubíquo,"Produção de aço, pigmentos",Vermelho
+Galena,Mineral,PbS,2.5-3.5,Metálico,Cinza-chumbo,PbS,Cúbico,Sulfeto,Cúbico,Perfeita,Subconchoidal,7.2 - 7.6,Opaco,Densidade alta,Veios hidrotermais,Ubíquo,Minério de chumbo,Cinza-chumbo
+Cobre,Elemento,Cu,2.5-3,Metálico,Vermelho,Cu,Cúbico,Elemento,Dendrítico,N/A,Fraturado,8.9 - 8.96,Opaco,Cor avermelhada,Veios em rochas ígneas,Ubíquo,"Fios elétricos, moedas",Vermelho
+Prata,Elemento,Ag,2.5-3,Metálico,Branco,Ag,Cúbico,Elemento,Dendrítico,N/A,Fraturado,10.5,Opaco,Brilho metálico,Veios hidrotermais,Ubíquo,"Joalheria, indústria fotográfica",Branco
+Ouro,Elemento,Au,2.5-3,Metálico,Amarelo,Au,Cúbico,Elemento,Dendrítico,N/A,Fraturado,19.3,Opaco,Cor amarela,Veios hidrotermais,Ubíquo,"Joalheria, indú",
+Gesso,Mineral,CaSO4·2H2O,2,Vítreo,Incolor,CaSO4·2H2O,Monoclínico,Sulfato,Prismático,Perfeita,Fibrosa,2.3,Translúcido,Solubilidade em água,Depósitos sedimentares,Ubíquo,"Construção, fabricação de gesso",Branco
+Barita,Mineral,BaSO4,3-3.5,Vítreo,Branco,BaSO4,Ortorrômbico,Sulfato,Tabular,Perfeita,Concoidal,4.3 - 5,Translúcido,Alta densidade,Veios hidrotermais,Ubíquo,"Indústria de petróleo, pintura",Branco
+Borax,Mineral,Na2B4O7·10H2O,2,Vítreo,Branco,Na2B4O7·10H2O,Monoclínico,Borato,Granular,Indistinta,Concoidal,1.7,Translúcido,Solubilidade em água,Depósitos evaporíticos,Ubíquo,"Produção de vidro, esmaltes",Branco
+Fosfato,Mineral,Variávels,Variável,Variável,Variável,Variávels,Variável,Variávels,Variável,Variável,Variável,Variável,Variável,Variável,Variávels,Variável,Variável,Variável
+Potássio,Elemento,K,2.5-3,Metálico,Prateado,K,Cúbico,Elemento,Cúbico,N/A,Fraturado,0.86,Opaco,Cor prateada,"Rochas ígneas, sedimentares",Ubíquo,"Fertilizantes, indústria química",Branco
+Sódio,Elemento,Na,2.5,Metálico,Prateado,Na,Cúbico,Elemento,Cúbico,N/A,Fraturado,0.97,Opaco,Cor prateada,"Rochas ígneas, sedimentares",Ubíquo,"Indústria química, fundição",Branco
+Silicato de sódio,Mineral,Na2SiO3,Variável,Vítreo,Variável,Na2SiO3,Variável,Silicato,Variável,Variável,Variável,Variável,Variável,Variável,Variávels,Variável,Variável,Variável
+Carbonato de sódio,Mineral,Na2CO3,2.5-3,Vítreo,Incolor,Na2CO3,Monoclínico,Carbonato,Variável,Variável,Variável,2.5 - 2.7,Transparente,Efervescência com ácido,Veios evaporíticos,Ubíquo,"Indústria química, vidro",Branco
+Silicato de magnésio,Mineral,MgSiO3,6,Vítreo,Variável,MgSiO3,Monoclínico,Silicato,Prismático,Perfeita,Concoidal,3.2 - 3.4,Transparente,Clivagem planar,Rochas metamórficas,Ubíquo,"Materiais refratários, isolante térmico",Branco
+Carbonato de cálcio,Mineral,CaCO3,3,Vítreo,Variável,CaCO3,Trigonal,Carbonato,Romboédrico,Perfeita,Concoidal,2.7,Transparente,Efervescência com ácido,Mármore,Ubíquo,"Construção, indústria de cimento",Branco
+Sílica,Mineral,SiO2,7,Vítreo,Variável,SiO2,Trigonal,Óxido,Maciço,Imperfeita,Conchoidal,2.6 - 2.7,Transparente,Transparência,Pegmatita,Ubíquo,"Vidro, indústria eletrônica",Branco
+Argila,Mineral,Variávels,Variável,Mate,Variável,Variávels,Variável,Variávels,Variável,Variável,Variável,Variável,Opaco,Variável,Variávels,Variável,"Cerâmica, indústria de papel",Variável
+Areia,Material,Variávels,Variável,Mate,Variável,Variávels,Variável,Variávels,Granular,Variável,Variável,Variável,Opaco,Variável,Variávels,Ubíquo,"Construção, indústria de vidro",Variável
+Granito,Rocha,Variávels,Variável,Mate,Variável,Variávels,Variável,Variávels,Maciço,Variável,Variável,Variável,Opaco,Variável,Variávels,Ubíquo,"Construção, decoração",Variável
+Ardósia,Rocha,Variávels,Variável,Mate,Variável,Variávels,Variável,Variávels,Placa,Perfeita,Irregular,Variável,Opaco,Variável,Variávels,Ubíquo,Telhados,
